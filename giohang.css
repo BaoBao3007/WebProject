@@ -1,0 +1,128 @@
+.total {
+  font-weight: bolder;
+}
+@media screen and (max-width: 600px) { 
+  table#cart tbody td .form-control { 
+  width:20%; 
+  display: inline !important;
+  } 
+   
+  .actions .btn { 
+  width:36%; 
+  margin:1.5em 0;
+  } 
+   
+  .actions .btn-info { 
+  float:left;
+  } 
+   
+  .actions .btn-danger { 
+  float:right;
+  } 
+   
+  table#cart thead {
+  display: none;
+  } 
+   
+  table#cart tbody td {
+  display: block;
+  padding: .6rem;
+  min-width:320px;
+  } 
+   
+  table#cart tbody tr td:first-child {
+  background: #333;
+  color: #fff;
+  } 
+   
+  table#cart tbody td:before { 
+  content: attr(data-th);
+  font-weight: bold; 
+  display: inline-block;
+  width: 8rem;
+  } 
+   
+  table#cart tfoot td {
+  display:block;
+  } 
+  table#cart tfoot td .btn {
+  display:block;
+  }
+  }
+
+  .img-responsive{
+      max-width: 200px;
+      height: auto;
+  }
+
+  .head {
+      border-bottom: 1px solid rgb(131, 131, 131);
+      box-shadow: 0 0 4px 0 ;
+  }
+  .quantity-controls {
+    display: flex;
+    align-items: center;
+}
+.quantity-controls input
+{
+  border: none;
+}
+.quantity-controls button {
+    width: 25px;
+    height: 25px;
+    margin: 0 5px;
+    padding: 0;
+    border: 1px solid grey;
+    background-color: transparent;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.quantity-display {
+    width: 40px;
+    text-align: center;
+}
+th
+{
+  font-size: 20px;
+}
+h1
+{
+  text-align: center;
+  font-family: 'Pacifico', cursive;
+}
+.thanhtoan
+{
+    text-align: right;
+    font-size: 17px;
+}
+.thanhtoan button
+{
+  border-radius: 20px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+.button1
+{
+  color: #FFFFFF;
+  background-color: #FFB0BD;
+  border: none;
+}
+.button2
+{
+  color: #FFB0BD;
+  border: 1px solid #FFB0BD;
+  background-color: #FFFFFF;
+}
+.button1:hover
+{
+  color: white;
+  background-color: #d35c70;
+}
+.button2:hover
+{
+  color: white;
+  background-color: #FFB0BD;
+}

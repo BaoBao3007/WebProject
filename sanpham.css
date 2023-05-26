@@ -1,0 +1,39 @@
+.card-img-top
+{
+    width: 240px; 
+    height: 200px;
+    /* width: 192px;
+    height: 212px; */
+    padding-top: 5px;
+}
+.card-title
+{
+    text-align: left;
+}
+.card h6
+{
+    text-align: left;
+    font-weight: bolder;
+}
+.col
+{
+    margin-top: 23px;
+}
+.card
+{
+    background-color: aliceblue;
+}
+.card img:hover 
+{
+    transition: all 0.5s;
+    opacity: 0.4;
+}
+.card-body a
+{
+    text-decoration: none;
+    color: black;
+}
+.card-body a:hover
+{
+    color: palevioletred;
+}

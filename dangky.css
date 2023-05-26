@@ -1,0 +1,48 @@
+.nen
+{
+    padding-top: 20px;
+    padding-bottom: 10px;
+    display: flex;
+    justify-content: center;
+}
+.form
+{
+    
+    padding-left: 20px;
+    padding-right: 20px;
+    width: 500px;
+    background-color: whitesmoke;
+}
+label
+{
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+.group input
+{
+    width: 100%;
+}
+#age
+{
+    width: 100%;
+    height: 30px;
+}
+textarea
+{
+    width: 100%;
+    height: 100px;
+}
+h1
+{
+    text-align: center;
+    font-family: 'Lobster', cursive;
+}
+.submit
+{
+    background-color: pink;
+    font-weight: bold;
+}
+.group input[type="date"]
+{
+    height: 30px;
+}

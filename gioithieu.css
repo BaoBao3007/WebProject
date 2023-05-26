@@ -1,0 +1,29 @@
+h3
+{
+    font-family: 'Courgette', cursive;
+    text-align: center;
+}
+.ctn
+{
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+}
+h2
+{
+    text-align: center;
+}
+.avatar
+{
+    overflow: hidden;
+    width: 180px;
+    height: 180px;
+    border: 1px solid black;
+    border-radius:50%;
+}
+
+#anh
+{
+    width: 200pxpx;
+    height:200px;
+}

@@ -1,0 +1,68 @@
+.navbar-brand
+{
+    font-family:'Times New Roman', Times, serif;
+    font-style: italic;
+    font-weight: bolder;
+    font-size: 40px;
+    /* color: #c20c8d; */
+    color: #8a4762;
+}
+.navbar > .container-fluid
+{
+    /* background-color:#03fcbe ; */
+    background-color: #ffb0bd;
+    margin-top: -8px;
+}
+#navbarSupportedContent
+{
+    margin-left: 90px;
+}
+.nav-link
+{
+    font-size: 22px;
+}
+.giohang
+{
+    margin-left: 10px;
+}
+
+.banner {
+    background-image: url(image/Screenshot\ \(479\).png);
+    
+    height: 320px;
+}
+.slogan {
+    font-size: 25px;
+    font-family: 'Dancing Script', cursive;
+    font-family: 'Lobster', cursive;
+    font-family: 'Lora', serif;
+    font-family: 'Playfair Display', serif;
+    margin-left: 10%;
+    margin-top: 35px;
+    margin-bottom: 35px;
+}
+.p-4
+{
+    font-size: 20px;
+}
+.d-flex input 
+{
+    border-radius: 12px;
+}
+.d-flex button 
+{
+    color: black;
+    border-color: rgb(214, 213, 213);
+    border-radius: 12px;
+}
+.d-flex button:hover 
+{
+    color: white;
+    background-color: #ed474f;
+}
+footer
+{
+    background-color: #ffb0bd;
+    color: white;
+    padding-top: 20px;
+}
